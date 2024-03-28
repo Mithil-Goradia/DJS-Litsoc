@@ -9,6 +9,8 @@ import Events from './pages/Events'
 import Gallery from './pages/Gallery'
 import Navbar from './components/Navbar'
 import AOS from 'aos'
+import About from './pages/About'
+import Footer from './components/Footer'
 
 function App() {
   useEffect(() => {
@@ -19,15 +21,19 @@ function App() {
   },[])
 
   return (
-    <div className=''>
+    <div className='lg:bg-[url(./assets/bg2.png)] bg-[url(./assets/bg3.png)] bg-fixed bg-center bg-repeat bg-contain w-full min-h-screen'>
       <Navbar/>
-      <div>
+      <div className='pt-28'>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route path='/team' element={<Team/>}/>
           <Route path='/events' element={<Events/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/aboutus' element={<About/>}/>
         </Routes>
+      </div>
+      <div className='bottom-0'>
+        <Footer/>
       </div>
     </div>
   )

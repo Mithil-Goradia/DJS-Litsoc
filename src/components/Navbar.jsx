@@ -53,6 +53,7 @@ function Navbar() {
         {navLinks.map(({ link, name }, index) => {
           return (
             <div 
+            key={index}
                 className={`transition-all ease-out duration-500 delay-500 ${
                   !isOpen && "translate-x-full"
                 } w-full pointer btn flex justify-center px-5 -py-4 rounded-full text-3xl font-bold leading-normal text-white font-quicksand`}
@@ -74,7 +75,7 @@ function Navbar() {
     </div>
     <nav className="w-full hidden md:flex">
       <div className="flex space-x-2 items-center justify-between lg:px-16 w-full">
-        <div className="w-full">
+        <div className="w-1/3">
           <Link to="/">
             <img
               src={lg_logo} // Route of the image file
@@ -85,29 +86,25 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="flex space-x-7 items-start justify-center w-full">
+        <div className="w-1/3 flex space-x-7 items-start justify-center">
           {navLinks.map(({ link, name }, index) => {
             return (
               <Link
                 to={link}
                 key={index}
-                className="nav-link nav-link-fade-up text-xl font-bold leading-normal tracking-widest text-gray-300 font-Quicksand">
+                className="nav-link nav-link-ltr text-xl font-bold leading-normal tracking-widest text-gray-300 font-Quicksand">
                 {name}
               </Link>
             );
           })}
         </div>
-        <div className="w-full flex md:justify-center lg:justify-end">
+        <div className="w-1/3 flex md:justify-center lg:justify-end">
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={
-              "https://docs.google.com/document/d/1BA4kyww5gYWBKA-UaOSGXi3ROmiwsUYS3qrDsbAzzj8"
-            }>
+            href={`mailto:${email}`}>
             <div className="pointer flex items-center justify-start px-5 py-2 text-md text-white hover:text-[#242424] hover:bg-[#ffffff] rounded-full border-[2px] border-solid border-white font-bold leading-normal transition-all duration-150">
-            <a href={`mailto:${email}`}>
               Contact Us
-            </a>
             </div>
           </a>
         </div>
