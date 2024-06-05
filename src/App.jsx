@@ -23,7 +23,7 @@ function App() {
   return (
     <div className='lg:bg-[url(./assets/bg2.png)] bg-[url(./assets/bg3.png)] bg-fixed bg-center bg-repeat bg-contain w-full min-h-screen'>
       <Navbar/>
-      <div className='pt-28'>
+      <div className='pt-24'>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route path='/team' element={<Team/>}/>
