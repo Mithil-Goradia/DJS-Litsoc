@@ -54,7 +54,7 @@ function Navbar() {
           return (
             <div 
             key={index}
-                className={`transition-all ease-out duration-500 delay-500 ${
+                className={`transition-all ease-out duration-500  ${
                   !isOpen && "translate-x-full"
                 } w-full pointer btn flex justify-center px-5 -py-4 rounded-full text-3xl font-bold leading-normal text-white font-quicksand`}
             >

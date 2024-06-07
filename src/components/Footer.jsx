@@ -31,7 +31,7 @@ export default function Footer() {
             >
               <div className="transition-all hover:scale-125 transition-ease">
               <BsLinkedin
-                className="scale-[0.7] sm:scale-[1.5]"
+                className="scale-[1.5]"
                 onMouseOver={({ target }) => (target.style.color = '#0a66c2')}
                 onMouseOut={({ target }) => (target.style.color = 'white')} 
                 />
@@ -40,13 +40,13 @@ export default function Footer() {
             <a
               href="mailto:djsmunsoc@gmail.com"
               target="_blank"
-              className=" rounded-full p-5 border-[2px]"
+              className=" rounded-full p-4 border-[2px]"
               style={{ borderColor: "#fff" }}
               rel="noreferrer"
             >
             <div className="transition-all scale-125 hover:scale-150 delay-75">
               <MdEmail
-               className="scale-[0.7] sm:scale-[1.5]"
+               className="scale-[1.5]"
                onMouseOver={({ target }) => (target.style.color = '#fff')}
                onMouseOut={({ target }) => (target.style.color = 'white')}
              />
@@ -61,7 +61,7 @@ export default function Footer() {
             >
               <div className="transition-all hover:scale-125 delay-75">
                <BsInstagram
-                className="scale-[0.7] sm:scale-[1.5]"
+                className="scale-[1.5]"
                 onMouseOver={({ target }) => (target.style.color = '#fd016e')}
                 onMouseOut={({ target }) => (target.style.color = 'white')} 
                 />
@@ -71,8 +71,8 @@ export default function Footer() {
           </div>
           
           <div className=" flex w-full flex-col sm:gap-3 pb-4 md:pl-16 lg:pl-24">
-            <h1 className=" text-2xl font-semibold text-white underline underline-offset-4 py-2 lg:py-0 ">INFO</h1>
-            <div className="text-md sm:text-lg">
+            <h1 className=" text-3xl font-semibold text-white underline underline-offset-4 py-2 lg:py-0 ">INFO</h1>
+            <div className="text-lg sm:text-lg">
               <p className="hover:translate-x-1 transition-all transition-ease">
                 <Link
                   to="/events"

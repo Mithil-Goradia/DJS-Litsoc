@@ -1,21 +1,31 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import { coreMembers } from '../constants/index.js';
 import { BsLinkedin, BsGlobe, BsInstagram, BsGithub } from "react-icons/bs";
 import defaultProfile from "../constants/default-profile.jpg";
+import 'aos/dist/aos.css'
 
 function Team() {
+  
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+      })
+  }, [])
+
   return (
     <>
-      <div className='w-full text-center text-6xl lg:text-7xl font-bold font-Quicksand'>
+      <div className='w-full text-center text-6xl lg:text-7xl font-bold font-Quicksand' data-aos="fade-down" data-aos-delay="300">
         OUR TEAM
       </div>
-      <div className="lg:w-1/2 pt-8 pb-12 mx-3 lg:mx-auto text-center lg:text-xl text-lg">
+      <div className="lg:w-1/2 pt-8 pb-12 mx-3 lg:mx-auto text-center lg:text-xl text-lg" data-aos="fade-down" data-aos-delay="300">
         <p>Meet the architects of our MUN journey, the brilliant minds behind the scenes - our Secretariat and the Core Team. 
           These are the individuals who turn aspirations into achievements,
           and their commitment is the driving force that propels DJS-MUNSOC to new heights!
         </p>
       </div>
-      <div className='w-full lg:mx-auto flex flex-col items-center gap-36 pb-40'>
+      <div className='w-full lg:mx-auto flex flex-col items-center gap-36 pb-40' data-aos="fade-in" data-aos-delay="800">
         { coreMembers.map( (row , index) => {
             return (
               <TeamRow members={row} key={index} />
@@ -29,7 +39,7 @@ function Team() {
 function TeamRow({ members }) {
   return (
     <>
-      <div className="w-[80%] gap-8 lg:gap:8 lg:w-full lg:h-[28rem] flex flex-col lg:flex-row justify-around items-center space-y-28 lg:space-y-0">
+      <div className="w-[80%] gap-8 lg:gap:8 lg:w-full lg:h-[28rem] flex flex-col lg:flex-row justify-around items-center space-y-28 lg:space-y-0" data-aos="fade-in" data-aos-delay="300">
         {members.map((item, index) => {
           return <TeamCard {...item} key={index} />;
         })}
