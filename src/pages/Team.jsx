@@ -5,15 +5,6 @@ import defaultProfile from "../constants/default-profile.jpg";
 import 'aos/dist/aos.css'
 
 function Team() {
-  
-  useEffect(() => {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "smooth"
-      })
-  }, [])
-
   return (
     <>
       <div className='w-full text-center text-6xl lg:text-7xl font-bold font-Quicksand' data-aos="fade-down" data-aos-delay="300">
@@ -39,7 +30,7 @@ function Team() {
 function TeamRow({ members }) {
   return (
     <>
-      <div className="w-[80%] gap-8 lg:gap:8 lg:w-full lg:h-[28rem] flex flex-col lg:flex-row justify-around items-center space-y-28 lg:space-y-0" data-aos="fade-in" data-aos-delay="300">
+      <div className="w-[80%] gap-8 lg:gap:8 lg:w-full lg:h-[28rem] flex flex-col lg:flex-row justify-around items-center space-y-28 lg:space-y-0" >
         {members.map((item, index) => {
           return <TeamCard {...item} key={index} />;
         })}

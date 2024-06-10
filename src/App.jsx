@@ -11,6 +11,9 @@ import Navbar from './components/Navbar'
 import AOS from 'aos'
 import About from './pages/About'
 import Footer from './components/Footer'
+import EventDetails from './pages/EventDetails'
+import ScrollToTop from './components/ScrollToTop'
+import ScrollUpButton from './components/ScrollUpButton'
 
 function App() {
   useEffect(() => {
@@ -25,14 +28,18 @@ function App() {
     <div className='lg:bg-[url(./assets/bg2.png)] bg-[url(./assets/bg3.png)] bg-fixed bg-center bg-repeat bg-contain w-full min-h-screen overflow-clip'>
       <Navbar/>
       <div className='pt-24'>
-        <Routes>
-          <Route exact path='/' element={<Home/>}/>
-          <Route path='/team' element={<Team/>}/>
-          <Route path='/events' element={<Events/>}/>
-          <Route path='/gallery' element={<Gallery/>}/>
-          <Route path='/aboutus' element={<About/>}/>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route exact path='/' element={<Home/>}/>
+            <Route path='/team' element={<Team/>}/>
+            <Route path='/events' element={<Events/>}/>
+            <Route path='/gallery' element={<Gallery/>}/>
+            <Route path='/aboutus' element={<About/>}/>
+            <Route path='/event-details/:name' element={<EventDetails/>}/>
+          </Routes>
+        </ScrollToTop>
       </div>
+      <ScrollUpButton/>
       <div className='bottom-0'>
         <Footer/>
       </div>

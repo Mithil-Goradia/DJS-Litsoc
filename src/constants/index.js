@@ -7,6 +7,101 @@ export const navLinks = [
     { link: "/aboutus", name: "About Us"},
   ];
 
+export const events = [
+  {
+    year: "2023 - 2024",
+    events:[
+            {
+              name:"DJS Youth Summit 1.0", 
+              date:"22-23rd March, 2024",
+              thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg", 
+              images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+              committees:[
+                {
+                  name:"UNHSC",
+                  description:["Inheriting the Bomb: Post USSR Collapse and its Nuclear Implications."]
+                },
+                {
+                  name:"UNHRC",
+                  description:["Addressing Human Rights and Legal Implications at Guantanamo Bay."]
+                },
+                {
+                  name:"Lok Sabha",
+                  description:["To address the preservation and restoration of monuments of historical importance, including Ayodhya, Mathura, Kashi, and others impacted by historical events."]
+                },
+                {
+                  name:"International Press (IP)",
+                  description:[]
+                },
+              ]
+            },
+          ]
+  },
+  {
+    year:"2022 - 2023",
+    events:[
+      {
+        name:"DJMUN 2023", 
+        date:"19-20th August, 2023", 
+        thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg",
+        images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+        committees:[
+          {
+            name:"AIPPM",
+            description:["Collaborate with National and International Institutions, focused on GIFT City.",
+              "Tackle the Surge of Communal Politics and Address Inappropriate Behavior of Party Workers."]
+          },
+          {
+            name:"WHO",
+            description:["Exploring Boundaries: Legalizing & Regulating Recreational Drugs.","A Compassionate Debate: Assisted Suicide & Euthanasia."]
+          },
+          {
+            name:"Indo-Pak",
+            description:["De-escalation of state-sponsored terrorism , with a special focus on the impactful URI and PULWAMA."]
+          },
+          {
+            name:"UNSC",
+            description:["Cybersecurity and State-Sponsored Hacking, with a special focus on the profound ethical implications of Artificial Intelligence (AI) algorithms on our world."]
+          },
+          {
+            name:"US Senate",
+            description:["The US Senate takes on Twitter in a Clash of Powers."]
+          },
+        ]
+      },
+      {
+        name:"MUNch Madness", 
+        date:"15-16th March, 2023", 
+        thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg",
+        images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+        committees:[
+          {
+            name:"UNSC",
+            description:["China’s rising global influence with emphasis on cyber threats and espionage."]
+          },
+          {
+            name:"DISEC",
+            description:["Disarmament of nuclear weapons with emphasis on the Russia-Ukraine Crisis."]
+          },
+          {
+            name:"UNHRC",
+            description:[" LGBTQ+ Rights in the Middle East and the African regions."]
+          },
+          {
+            name:"Indo-Pak Summit",
+            description:["Ethnic cleansing of the minorities."]
+          },
+          {
+            name:"International Press (IP)",
+            description:[]
+          },
+        ]
+      },
+    ]
+  }
+]
+
+
   // export const coreMembers = [
   //   [
   //     { name: "", description: "", image: "", links: { linkedin: "", instagram: ""} },

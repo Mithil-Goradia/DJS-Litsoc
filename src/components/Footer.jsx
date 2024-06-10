@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <div
-      className="flex-col w-full py-4 px-2 sm:px-5 gap-8 text-white backdrop-blur-xl bg-transparent"
+      className="flex-col w-full py-4 px-2 sm:px-5 gap-8 text-white backdrop-blur-xl bg-transparent bottom-0"
       // style={{ background: "linear-gradient(180deg, #0e2038, black)" }}
     >
       <div className="md:-ml-20 w-full lg:grid grid-cols-3 md:px-12 md:gap-12 lg:gap-24 lg:px-20  overflow-x-hidden">
@@ -73,6 +73,13 @@ export default function Footer() {
           <div className=" flex w-full flex-col sm:gap-3 pb-4 md:pl-16 lg:pl-24">
             <h1 className=" text-3xl font-semibold text-white underline underline-offset-4 py-2 lg:py-0 ">INFO</h1>
             <div className="text-lg sm:text-lg">
+            <p className="hover:translate-x-1 transition-all transition-ease">
+                <Link
+                  to="/"
+                >
+                  Home
+                </Link>
+              </p>
               <p className="hover:translate-x-1 transition-all transition-ease">
                 <Link
                   to="/events"

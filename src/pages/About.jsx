@@ -2,17 +2,8 @@ import {React, useEffect} from 'react'
 import 'aos/dist/aos.css'
 
 function About() {
-
-  useEffect(() => {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "smooth"
-      })
-  }, [])
-
   return (
-    <div className='min-h-screen'>
+    <div className='h-auto pb-12'>
       <div className='w-full text-center text-5xl lg:text-6xl font-bold font-Quicksand' data-aos="fade-in" data-aos-delay="300">
         ABOUT US
       </div>
