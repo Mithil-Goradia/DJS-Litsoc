@@ -89,7 +89,6 @@ function EventDetails() {
           })}
         </Carousel>
        </div>
-
       </div>
     </>
   )

@@ -9,7 +9,7 @@ function Navbar() {
     const [isOpen, setisOpen] = useState(false);
 
   return (
-    <div className="w-full fixed z-50 antialiased font-rubik backdrop-blur-sm bg-transparent border-white transition-colors duration-300">
+    <div className="w-full fixed z-50 antialiased font-rubik bg-transparent backdrop-blur-sm border-white transition-colors duration-300">
     <div className="w-full flex flex-col px-4 relative md:hidden">
       <div className="w-full flex justify-between items-center z-50">
         <Link to="/">
@@ -25,7 +25,7 @@ function Navbar() {
           />
         </Link>
         <button
-          className="pointer-events-auto text-white opacity-100 w-10 h-10 relative focus:outline-none"
+          className="pointer-events-auto text-white opacity-100 w-10 h-10 relative focus:outline-none mt-3"
           onClick={() => {
             setisOpen(!isOpen);
           }}>
@@ -73,7 +73,7 @@ function Navbar() {
         })}
       </div>
     </div>
-    <nav className="w-full hidden md:flex">
+    <nav className="w-full hidden md:flex pb-2">
       <div className="flex space-x-2 items-center justify-between lg:px-16 w-full">
         <div className="w-1/3">
           <Link to="/">
@@ -86,7 +86,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="w-1/3 flex space-x-7 items-start justify-center">
+        <div className="w-1/3 pt-4 flex space-x-7 items-start justify-center">
           {navLinks.map(({ link, name }, index) => {
             return (
               <Link
@@ -98,12 +98,12 @@ function Navbar() {
             );
           })}
         </div>
-        <div className="w-1/3 flex md:justify-center lg:justify-end">
+        <div className="w-1/3 pt-4 flex md:justify-center lg:justify-end">
           <a
             target="_blank"
             rel="noopener noreferrer"
             href={`mailto:${email}`}>
-            <div className="pointer flex items-center justify-start px-5 py-2 text-md text-white hover:text-[#242424] hover:bg-[#ffffff] rounded-full border-[2px] border-solid border-white font-bold leading-normal transition-all duration-150">
+            <div className="pointer flex items-center justify-start px-5 py-2 text-md text-white hover:text-[#242424] rounded-full border-[2px] border-solid border-white font-bold leading-normal button-2">
               Contact Us
             </div>
           </a>

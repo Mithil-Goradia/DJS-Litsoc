@@ -6,7 +6,6 @@ import { Route, Routes, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Team from './pages/Team'
 import Events from './pages/Events'
-import Gallery from './pages/Gallery'
 import Navbar from './components/Navbar'
 import AOS from 'aos'
 import About from './pages/About'
@@ -14,6 +13,7 @@ import Footer from './components/Footer'
 import EventDetails from './pages/EventDetails'
 import ScrollToTop from './components/ScrollToTop'
 import ScrollUpButton from './components/ScrollUpButton'
+import DJMUN24 from './pages/DJMUN24'
 
 function App() {
   useEffect(() => {
@@ -33,7 +33,7 @@ function App() {
             <Route exact path='/' element={<Home/>}/>
             <Route path='/team' element={<Team/>}/>
             <Route path='/events' element={<Events/>}/>
-            <Route path='/gallery' element={<Gallery/>}/>
+            <Route path='/DJMUN24' element={<DJMUN24/>}/>
             <Route path='/aboutus' element={<About/>}/>
             <Route path='/event-details/:name' element={<EventDetails/>}/>
           </Routes>

@@ -49,3 +49,17 @@
   .nav-link-grow-up:hover::before {
     height: 5px;
   }
+
+  .button-2 {
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-image: -webkit-linear-gradient(150deg, #fff 50%, transparent 50%);
+    background-image: linear-gradient(150deg, #fff 50%, transparent 50%);
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+  }
+  .button-2:hover {
+    background-position: 0%;
+  }
