@@ -12,17 +12,17 @@ function Home() {
   return (
     <>
       <div className='w-full min-h-screen text-3xl'>
-        <div className='flex justify-center items-center w-full bg-cover lg:mt-24 sm:mt-0'>
+        <div className='flex justify-center items-center w-full bg-cover lg:mt-0 sm:mt-0'>
           <img src="/group.jpg" className='relative object-contain max-w-full h-auto'></img>
         </div>
-        <div className=" text-white pt-10 lg:pt-[250px] lg:pb-4 pb-20 w-full">
+        <div className=" text-white pt-10 lg:pt-[180px] lg:pb-4 pb-20 w-full">
           <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up">DJS</p>
           <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up">MUNSOC</p>
-          <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="1000">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
+          <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="700">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
           <div 
             ref={targetRef}
             onClick={() => {navigate('/DJMUN24')}}
-            className="hidden ml-[580px] mb-32 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-4 py-2 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
+            className="hidden ml-[580px] mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-4 py-2 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
           >
             <p>Check out our upcoming event</p>
             <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
