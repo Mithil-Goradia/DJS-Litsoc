@@ -39,13 +39,15 @@ const DJMUN24 = () => {
     <>
       <div className="w-full lg:pt-6 pt-6 min-h-screen flex-col justify-center items-center">
         <div
-          className="text-center text-5xl lg:text-[120px] font-bold font-Quicksand lg:pb-8 pb-12"
+          className="text-center text-6xl lg:text-[120px] font-bold font-Quicksand lg:pb-8 pb-5"
           data-aos="fade-down"
           data-aos-delay="300"
         >
           DJSMUN'24
         </div>
-        <div className="text-extrabold text-xl md:text-3xl pt-2 pb-8 text-center">27 - 28 July, 2024</div>
+        <div className="w-full text-xl lg:text-3xl font-bold lg:font-extrabold mb-10 lg:pl-1 pl-3" data-aos="fade-down" data-aos-delay="300">
+          <p className='w-full text-center'>Date: 27th and 28th July, 2024 </p>
+        </div>
         <div
           className="w-full lg:px-44 px-[14px] text-2xl text-center pb-10"
           data-aos="fade-down"
