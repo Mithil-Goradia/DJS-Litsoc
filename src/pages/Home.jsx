@@ -17,11 +17,11 @@ function Home() {
           <img src="/group.jpg" className='relative object-contain max-w-full h-auto'></img>
         </div>
         <div className=" text-white pt-10 lg:pt-[180px] lg:pb-4 pb-20 w-full">
-          <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up">DJS</p>
-          <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up">MUNSOC</p>
+          <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up" data-aos-delay="300" >DJS</p>
+          <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up" data-aos-delay="300">MUNSOC</p>
           <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="700">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
           <div className="w-full flex justify-center">
-            <div 
+            <div
               ref={targetRef}
               onClick={() => {navigate('/DJMUN24')}}
               className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
@@ -46,7 +46,7 @@ function Home() {
           </div>
         </div>
         <About />
-        
+
         {/* quotes */}
         <div className="w-full pb-40 lg:pt-16 lg:pb-8 pt-4">
           <div className="w-full h-[40vh] flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-16">
