@@ -55,7 +55,7 @@ const DJMUN24 = () => {
         >
           <p>
             Join us for an exhilarating journey of diplomacy and debate at the
-            DJS MUN 2024 Conference! With six engaging committees tackling
+            DJMUN 2024 Conference! With six engaging committees tackling
             critical global issues, this is your opportunity to step into the
             shoes of international diplomats, collaborate with peers, and make
             your voice heard on the world stage. <br /> <br />Registrations are now live –
