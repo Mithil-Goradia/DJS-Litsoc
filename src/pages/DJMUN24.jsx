@@ -39,11 +39,14 @@ const DJMUN24 = () => {
     <>
       <div className="w-full lg:pt-6 pt-6 min-h-screen flex-col justify-center items-center">
         <div
-          className="text-center text-5xl lg:text-[120px] font-bold font-Quicksand lg:pb-8 pb-12"
+          className="text-center text-6xl lg:text-[120px] font-bold font-Quicksand lg:pb-8 pb-5"
           data-aos="fade-down"
           data-aos-delay="300"
         >
           DJSMUN'24
+        </div>
+        <div className="w-full text-xl lg:text-3xl font-bold lg:font-extrabold mb-10 lg:pl-1 pl-3" data-aos="fade-down" data-aos-delay="300">
+          <p className='w-full text-center'>Date: 27th and 28th July, 2024 </p>
         </div>
         <div
           className="w-full lg:px-44 px-[14px] text-2xl text-center pb-10"
@@ -70,7 +73,7 @@ const DJMUN24 = () => {
           <a
             // data-aos="fade-up"
             // data-aos-delay="1300"
-            href="https://instagram.com"
+            href="https://forms.gle/oixGAK8QfDbL69LWA"
             target="_blank"
             className="pointer text-[18px] w-[225px] lg:mb-20 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white hover:scale-110 rounded-full border-[2px] border-solid border-white font-medium leading-normal button-2"
           >
