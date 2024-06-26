@@ -83,7 +83,7 @@ function EventDetails() {
             return(
               <img
                 src={image}
-                className='block h-full w-full lg:ml-[60px] ml-4 px-2 rounded-3xl'
+                className='block object-cover h-full w-full lg:ml-[60px] ml-4 px-2 rounded-3xl'
               />
             )
           })}

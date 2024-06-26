@@ -45,7 +45,7 @@ export const events = [
         name:"DJMUN 2023", 
         date:"19-20th August, 2023", 
         thumbnail:"/events/djmun23/thumbnail.png",
-        images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
+        images:["/events/djmun23/img1.jpg","/events/djmun23/img2.jpg","/events/djmun23/img3.jpg","/events/djmun23/img4.jpg"],
         committees:[
           {
             name:"AIPPM",
@@ -74,7 +74,7 @@ export const events = [
         name:"MUNch Madness", 
         date:"15-16th March, 2023", 
         thumbnail:"/events/munch/thumbnail.png",
-        images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
+        images:["/events/munch/image1.jpg","/events/munch/image2.jpg","/events/munch/image3.jpg"],
         committees:[
           {
             name:"UNSC",
