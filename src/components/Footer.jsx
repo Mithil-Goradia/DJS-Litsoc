@@ -82,6 +82,13 @@ export default function Footer() {
               </p>
               <p className="hover:translate-x-1 transition-all transition-ease">
                 <Link
+                  to="/DJMUN24"
+                >
+                  DJS MUN 2024
+                </Link>
+              </p>
+              <p className="hover:translate-x-1 transition-all transition-ease">
+                <Link
                   to="/events"
                 >
                   Events
@@ -92,20 +99,6 @@ export default function Footer() {
                   to="/team"
                 >
                   Team
-                </Link>
-              </p>
-              <p className="hover:translate-x-1 transition-all transition-ease">
-                <Link
-                  to="/gallery"
-                >
-                  Gallery
-                </Link>
-              </p>
-              <p className="hover:translate-x-1 transition-all transition-ease">
-                <Link
-                  to="/aboutus"
-                >
-                  About Us
                 </Link>
               </p>
             </div>
