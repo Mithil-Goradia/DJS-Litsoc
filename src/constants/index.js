@@ -245,7 +245,7 @@ export const events = [
         name: "Mohit Shah",
         description: "Delegate General",
         image:"./core/Mohit.jpg",
-        links: { linkedin: "", instagram: "" },
+        links: { linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a", instagram: "https://www.instagram.com/_mohit.13_/#" },
       },
       {
         name: "Meet Jain",

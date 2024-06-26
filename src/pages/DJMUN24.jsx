@@ -45,6 +45,7 @@ const DJMUN24 = () => {
         >
           DJSMUN'24
         </div>
+        <div className="text-extrabold text-xl md:text-3xl pt-2 pb-8 text-center">27 - 28 July, 2024</div>
         <div
           className="w-full lg:px-44 px-[14px] text-2xl text-center pb-10"
           data-aos="fade-down"
@@ -63,18 +64,18 @@ const DJMUN24 = () => {
         </div>
 
         <div
-          className="w-full flex justify-center"
+          className="w-full flex flex-col justify-center items-center"
           data-aos="fade-up"
           data-aos-delay="500"
         >
           <a
             // data-aos="fade-up"
             // data-aos-delay="1300"
-            href="https://instagram.com"
+            href="https://forms.gle/oixGAK8QfDbL69LWA"
             target="_blank"
-            className="pointer text-[18px] w-[225px] lg:mb-20 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white hover:scale-110 rounded-full border-[2px] border-solid border-white font-medium leading-normal button-2"
+            className="pointer text-center text-[24px] w-[225px] lg:mb-10 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white hover:scale-110 rounded-full border-[2px] border-solid border-white font-medium leading-normal button-2"
           >
-            Apply for this event
+            Register here!
             <svg
               className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
               aria-hidden="true"
