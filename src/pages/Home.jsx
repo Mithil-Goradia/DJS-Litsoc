@@ -26,7 +26,7 @@ function Home() {
               onClick={() => {navigate('/DJMUN24')}}
               className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
             >
-              <p className="text-bold">Registrations are now live for DJS MUN'24</p>
+              <p className="text-bold">Registrations are now live for DJMUN'24</p>
               <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>

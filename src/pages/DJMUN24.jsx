@@ -43,7 +43,7 @@ const DJMUN24 = () => {
           data-aos="fade-down"
           data-aos-delay="300"
         >
-          DJSMUN'24
+          DJMUN'24
         </div>
         <div className="w-full text-xl lg:text-3xl font-bold lg:font-extrabold mb-10 lg:pl-1 pl-3" data-aos="fade-down" data-aos-delay="300">
           <p className='w-full text-center'>Date: 27th and 28th July, 2024 </p>

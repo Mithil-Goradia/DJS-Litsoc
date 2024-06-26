@@ -2,7 +2,7 @@ export const email = 'djsmunsoc@gmail.com'
 
 export const navLinks = [
     { link: "/", name: "Home"},
-    { link: "/DJMUN24", name: "DJSMUN'24" },
+    { link: "/DJMUN24", name: "DJMUN'24" },
     { link: "/events", name: "Events" },
     { link: "/team", name: "Team" },
     // { link: "/aboutus", name: "About Us"},
