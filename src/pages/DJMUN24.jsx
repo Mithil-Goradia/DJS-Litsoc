@@ -126,8 +126,8 @@ const Card = ({ title, content, logo }) => (
     data-aos-delay="100"
   >
     <div className="lg:hidden w-full lg:w-1/4 ml-[90px] lg:ml-0">
-      <div className="w-28 h-28 lg:w-36 lg:h-36 bg-gray-300 rounded-full lg:mx-4">
-        {logo && <img src={logo} className="h-full w-full rounded-full" />}
+      <div className='w-32 h-32 lg:w-36 lg:h-36 bg-gray-300 rounded-full lg:mx-4'>
+        {logo && <img src={logo} className="h-full w-full object-cover rounded-full" />}
       </div>
     </div>
     <div className="w-full lg:w-3/4 flex-col items-center gap-1 mb-4 pt-3 text-center">
@@ -135,10 +135,8 @@ const Card = ({ title, content, logo }) => (
       <p className="lg:text-lg text-sm">{content}</p>
     </div>
     <div className="hidden lg:block w-full lg:w-1/4">
-      <div className="w-28 h-28 lg:w-36 lg:h-36 rounded-full lg:mx-4">
-        {logo && (
-          <img src={logo} className="h-full w-full object-cover rounded-full" />
-        )}
+      <div className='w-36 h-36 lg:w-36 lg:h-36 rounded-full lg:mx-4'>
+        {logo && <img src={logo} className="h-full w-full object-cover rounded-full" />}
       </div>
     </div>
   </div>
