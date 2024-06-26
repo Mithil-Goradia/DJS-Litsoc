@@ -1,9 +1,9 @@
 export const email = 'djsmunsoc@gmail.com'
 
 export const navLinks = [
+  { link: "/DJMUN24", name: "DJSMUN'24" },
     { link: "/events", name: "Events" },
     { link: "/team", name: "Team" },
-    { link: "/DJMUN24", name: "DJSMUN'24" },
     { link: "/aboutus", name: "About Us"},
   ];
 
@@ -14,8 +14,8 @@ export const events = [
             {
               name:"DJS Youth Summit 1.0", 
               date:"22-23rd March, 2024",
-              thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg", 
-              images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+              thumbnail:"/events/youthsum/thumbnail1.png", 
+              images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
               committees:[
                 {
                   name:"UNHSC",
@@ -43,8 +43,8 @@ export const events = [
       {
         name:"DJMUN 2023", 
         date:"19-20th August, 2023", 
-        thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg",
-        images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+        thumbnail:"/events/djmun23/thumbnail.png",
+        images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
         committees:[
           {
             name:"AIPPM",
@@ -72,8 +72,8 @@ export const events = [
       {
         name:"MUNch Madness", 
         date:"15-16th March, 2023", 
-        thumbnail:"https://flowbite.com/docs/images/blog/image-1.jpg",
-        images:["https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60","https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"],
+        thumbnail:"/events/munch/thumbnail.png",
+        images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
         committees:[
           {
             name:"UNSC",

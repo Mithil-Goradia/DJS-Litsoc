@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import ScrollUpButton from '../components/ScrollUpButton'
 import { RxDoubleArrowDown } from 'react-icons/rx'
 import { useNavigate } from 'react-router-dom'
+import About from './About'
 
 function Home() {
   const navigate = useNavigate()
@@ -22,9 +23,9 @@ function Home() {
           <div 
             ref={targetRef}
             onClick={() => {navigate('/DJMUN24')}}
-            className="hidden ml-[580px] mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-4 py-2 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
+            className="hidden ml-[580px] mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
           >
-            <p>Check out our upcoming event</p>
+            <pc className="text-bold">Registrations are now live for DJS MUN'24</pc>
             <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
@@ -40,6 +41,7 @@ function Home() {
             </svg>
           </div>
         </div>
+        <About />
         
         {/* quotes */}
         <div className="w-full pb-40 lg:pt-16 lg:pb-8 pt-4">
