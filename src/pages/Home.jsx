@@ -20,25 +20,29 @@ function Home() {
           <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up">DJS</p>
           <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up">MUNSOC</p>
           <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="700">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
-          <div 
-            ref={targetRef}
-            onClick={() => {navigate('/DJMUN24')}}
-            className="hidden ml-[580px] mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
-          >
-            <pc className="text-bold">Registrations are now live for DJS MUN'24</pc>
-            <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
+          <div className="w-full flex justify-center">
+            <div 
+              ref={targetRef}
+              onClick={() => {navigate('/DJMUN24')}}
+              className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
+            >
+              <p className="text-bold">Registrations are now live for DJS MUN'24</p>
+              <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </div>
           </div>
-          <div 
-            data-aos="fade-up" 
-            data-aos-delay="1300"
-            onClick={() => {navigate('/DJMUN24')}}
-            className="lg:hidden ml-12 pointer text-[15px] w-[280px] lg:mb-32 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white rounded-full border-[2px] border-solid border-white font-medium leading-normal">
-            Check out our upcoming event
-            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
+          <div className="w-full flex justify-center">
+            <div 
+              data-aos="fade-up" 
+              data-aos-delay="1300"
+              onClick={() => {navigate('/DJMUN24')}}
+              className="lg:hidden pointer text-[15px] w-[280px] lg:mb-32 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white rounded-full border-[2px] border-solid border-white font-medium leading-normal">
+              Check out our upcoming event
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </div>
           </div>
         </div>
         <About />

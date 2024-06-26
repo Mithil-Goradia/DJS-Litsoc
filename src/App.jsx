@@ -34,7 +34,7 @@ function App() {
             <Route path='/team' element={<Team/>}/>
             <Route path='/events' element={<Events/>}/>
             <Route path='/DJMUN24' element={<DJMUN24/>}/>
-            <Route path='/aboutus' element={<About/>}/>
+            {/* <Route path='/aboutus' element={<About/>}/> */}
             <Route path='/event-details/:name' element={<EventDetails/>}/>
           </Routes>
         </ScrollToTop>
