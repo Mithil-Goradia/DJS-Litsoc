@@ -4,12 +4,6 @@ import "../components/Navbar.css";
 const DJMUN24 = () => {
   const cardsInfo = [
     {
-      title: "OPEC: Political Club vs. Economic Cartel",
-      content:
-        "Assessing the global oil market implications when member nations prioritize leveraging OPEC as a platform for geopolitical influence over its economic functions.",
-      logo: "./icons/opec.png",
-    },
-    {
       title: "UNSC: The Nagorno-Karabakh Conflict",
       content:
         "Addressing the historical claims, influence of regional powers and their strategic interests and the efficacy of international ceasefire agreements.",
@@ -28,8 +22,8 @@ const DJMUN24 = () => {
       logo: "./icons/uncsw.png",
     },
     {
-      title: "Continuous Crisis Committee",
-      content: "",
+      title: "AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)",
+      content: "CLASSIFIED",
       logo: "./icons/crisis.jpg",
     },
     { title: "International Press (IP)", content: "", logo: "./icons/ip.png" },
