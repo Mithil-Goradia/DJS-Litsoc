@@ -4,6 +4,11 @@ import "../components/Navbar.css";
 const DJMUN24 = () => {
   const cardsInfo = [
     {
+      title: "AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)",
+      content: "CLASSIFIED",
+      logo: "./icons/crisis.jpg",
+    },
+    {
       title: "UNSC: The Nagorno-Karabakh Conflict",
       content:
         "Addressing the historical claims, influence of regional powers and their strategic interests and the efficacy of international ceasefire agreements.",
@@ -21,12 +26,10 @@ const DJMUN24 = () => {
         "Discussing the lack of women representation in political leadership with a special emphasis on the MENA region.",
       logo: "./icons/uncsw.png",
     },
-    {
-      title: "AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)",
-      content: "CLASSIFIED",
-      logo: "./icons/crisis.jpg",
-    },
-    { title: "International Press (IP)", content: "", logo: "./icons/ip.png" },
+    
+    { title: "International Press (IP)", 
+      content: "Press combines in-depth journalism with captivating photography to bring you stories that matter.", 
+      logo: "./icons/ip.png" },
   ];
 
   return (
