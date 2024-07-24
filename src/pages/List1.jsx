@@ -27,10 +27,9 @@ const List1 = () => {
         </h1>
         {participants.map((participant, index) => (
           <div key={index} className='flex justify-center my-5'>
-            <div className='flex flex-col gap-3 items-center'>
+            <div className='flex flex-col gap-3 items-center w-full px-2'>
               <div
-                style={{ width: '600px' }}
-                className='flex justify-between p-2 border-solid border-white border-2 rounded-lg'
+                className='flex justify-between p-2 border-solid border-white border-2 rounded-lg w-full'
               >
                 <p className='font-bold text-lg'>{participant.name}</p>
                 <p>{participant.country}</p>
