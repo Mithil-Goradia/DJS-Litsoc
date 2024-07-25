@@ -12,6 +12,7 @@ const DJMUN24 = () => {
       logo: './icons/crisis.jpg',
       listlink: 'list1', // Ensure this matches the route exactly
       flowlink: 'flow',
+      timelink: 'time',
     },
     {
       title: 'UNSC: The Nagorno-Karabakh Conflict',
@@ -19,20 +20,23 @@ const DJMUN24 = () => {
       logo: './icons/unsc.png',
       listlink: 'list2',
       flowlink: 'flow1',
+      timelink: 'time1',
     },
     {
-      title: 'LOK SABHA: Reservation: A Baggage carried too far?',
+      title: 'LOK SABHA: Reservation: A Baggage carried too far',
       content: 'Debating on caste-based reservations, the extension of reservations to economically weaker sections (EWS), and the implications of these policies on social justice.',
       logo: './icons/loksabha.jpg',
       listlink: 'list3',
       flowlink: 'flow2',
+      timelink: 'time2',
     },
     {
-      title: 'UNCSW: Where are the Women Leaders?',
+      title: 'UNCSW: Where are the Women Leaders',
       content: 'Discussing the lack of women representation in political leadership with a special emphasis on the MENA region.',
       logo: './icons/uncsw.png',
       listlink: 'list4',
       flowlink: 'flow1',
+      timelink: 'time3',
     },
     {
       title: 'International Press (IP)',
@@ -40,6 +44,7 @@ const DJMUN24 = () => {
       logo: './icons/ip.png',
       listlink: 'list5',
       flowlink: 'flow',
+      timelink: 'time4',
     },
   ];
 
@@ -49,9 +54,13 @@ const DJMUN24 = () => {
 
   const handleFlowClick = (flowlink) => {
     navigate(`/${flowlink}`);
-  }
+  };
 
-  const Card = ({ title, content, logo, listlink, flowlink }) => (
+  const handleTimeClick = (timelink) => {
+    navigate(`/${timelink}`);
+  };
+
+  const Card = ({ title, content, logo, listlink, flowlink, timelink }) => (
     <div
       className='border-solid border-2 border-white text-white lg:p-6 p-4 rounded-xl shadow-md w-full mb-6 flex-row lg:flex justify-center items-center lg:gap-5'
       data-aos='fade-up'
@@ -77,6 +86,12 @@ const DJMUN24 = () => {
             className='text-white px-4 py-2 rounded-full border-2 border-white hover:text-black hover:bg-white hover:scale-110 transition duration-400'
           >
             Participants List
+          </button>
+          <button
+            onClick={() => handleTimeClick(timelink)}
+            className='text-white px-4 py-2 rounded-full border-2 border-white hover:text-black hover:bg-white hover:scale-110 transition duration-400'
+          >
+            &#x1F552;
           </button>
         </div>
       </div>
@@ -145,7 +160,8 @@ const DJMUN24 = () => {
                 content={card.content}
                 logo={card.logo}
                 listlink={card.listlink}
-                flowlink={card.flowlink} // Ensure this is passed correctly
+                flowlink={card.flowlink}
+                timelink={card.timelink} // Ensure this is passed correctly
               />
             ))}
           </div>

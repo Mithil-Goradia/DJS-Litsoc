@@ -19,6 +19,11 @@ import List5 from './pages/List5';
 import Flow from './pages/Flow';
 import Flow1 from './pages/Flow1';
 import Flow2 from './pages/Flow2';
+import Time from './pages/Time';
+import Time1 from  './pages/Time1';
+import Time2 from './pages/Time2';
+import Time3 from './pages/Time3';
+import Time4 from './pages/Time4';
 
 function App() {
   useEffect(() => {
@@ -49,6 +54,11 @@ function App() {
               <Route path='/flow' element={<Flow />} />
               <Route path='/flow1' element={<Flow1/>} />
               <Route path='/flow2' element={<Flow2/>} />
+              <Route path='/time' element={<Time/>} />
+              <Route path='/time1' element={<Time1/>} />
+              <Route path='/time2' element={<Time2/>} />
+              <Route path='/time3' element={<Time3/>} />
+              <Route path='/time4' element={<Time4/>} />
             </Routes>
           </ScrollToTop>
         </div>

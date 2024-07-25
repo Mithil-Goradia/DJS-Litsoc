@@ -5,7 +5,7 @@ const List4 = () => {
         { name: 'Dr. Dhruva Nair', country: 'Kingdom of Saudi Arabia' },
         { name: 'Dhoon Pandya', country: 'United Arab Emirates' },
         { name: 'Poorva', country: 'State of Kuwait' },
-        { name: '', country: 'State of Qatar' },
+        { name: 'Sanjana Dubariya ', country: 'State of Qatar' },
         { name: 'Dhruthi Vijayanand', country: 'Kingdom of Bahrain' },
         { name: 'Ayesha Bhatti', country: 'Sultanate of Oman' },
         { name: 'Prisha Gogri', country: 'Kingdom Of Morocco' },
