@@ -2,9 +2,9 @@ import React from 'react'
 
 const List3 = () => {
   const participants = [
-    { name: 'Vinit Harish Gaikwad', country: 'Narendra Modi,PM' },
-    { name: 'Aakash Viswanath', country: 'Amit Shah,HM' },
-    { name: 'Vraj', country: 'Rajnath Singh, Defence Minister' },
+    { name: 'Vinit Harish Gaikwad', country: 'Narendra Modi' },
+    { name: 'Aakash Viswanath', country: 'Amit Shah,' },
+    { name: 'Vraj', country: 'Rajnath Singh' },
     { name: 'Kushal Jain', country: 'Kiren Rijju' },
     { name: 'Vraj Gaglani', country: 'Shivraj Singh Chauhan' },
     { name: 'Sarvik Mall', country: 'Nitin Gadkari' },
