@@ -22,7 +22,7 @@ const List3 = () => {
     { name: 'Ziyan Khan', country: 'Asaduddin Owaisi' },
     { name: 'Seher Sharik', country: 'Supriya Sule' },
     { name: 'Arham Shaikh', country: 'Akhilesh Yadav' },
-
+    { name: 'Jainam Dedhia', country: 'Abhishek Banerjee' },
   ];
 
   return (
