@@ -4,7 +4,6 @@ const List1 = () => {
   const participants = [
     { name: 'Aryan Singhvi', country: 'Republic of Botswana' },
     { name: 'Sathvika Devi V', country: 'Republic of Cameroon' },
-    { name: '', country: 'Republic of Côte d\'Ivoire' },
     { name: 'Manaav Rajput', country: 'Democratic Republic of the Congo' },
     { name: 'Aditya Kiran', country: 'Republic of Djibouti' },
     { name: 'Nishika Ranjit', country: 'Arab Republic of Egypt' },
@@ -13,7 +12,6 @@ const List1 = () => {
     { name: 'Ayuj Menda', country: 'Kingdom of Morocco' },
     { name: 'Aviv Parekh', country: 'Republic of Namibia' },
     { name: 'Manan Rustagi', country: 'Federal Republic of Nigeria' },
-    { name: '', country: 'Republic of Sierra Leone' },
     { name: 'Reeya Rangari', country: 'United Republic of Tanzania' },
     { name: 'Shlok Shah', country: 'Republic of Uganda' },
     { name: 'Crizane', country: 'Republic of Angola' },

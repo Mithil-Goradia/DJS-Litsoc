@@ -117,7 +117,7 @@ const DJMUN24 = () => {
       </div>
       <div className='w-full lg:px-44 px-[14px] text-2xl text-center pb-10' data-aos='fade-down' data-aos-delay='300'>
         <p>
-          Join us for an exhilarating journey of diplomacy and debate at the DJMUN 2024 Conference! With six engaging committees tackling critical global issues, this is your opportunity to step into the shoes of international diplomats, collaborate with peers, and make your voice heard on the world stage. <br /> <br />Registrations are now live – don't miss out on being a part of this transformative experience. Sharpen your negotiation skills, expand your global perspective, and contribute to impactful resolutions
+          Join us for an exhilarating journey of diplomacy and debate at the DJMUN 2024 Conference! With five engaging committees tackling critical global issues, this is your opportunity to step into the shoes of international diplomats, collaborate with peers, and make your voice heard on the world stage. <br /> <br />Registrations are now live – don't miss out on being a part of this transformative experience. Sharpen your negotiation skills, expand your global perspective, and contribute to impactful resolutions
         </p>
       </div>
 

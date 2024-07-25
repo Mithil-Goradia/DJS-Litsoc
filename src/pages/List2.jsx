@@ -14,7 +14,6 @@ const List2 = () => {
         { name: 'Soor Parmar', country: 'Federal Republic of Germany' },
         { name: 'Chinmay', country: 'Georgia' },
         { name: 'Saisha Dandekar', country: 'Ukraine' },
-        { name: '', country: 'Republic of Kazakhstan' },
         { name: 'Prathamesh Singh', country: 'Republic of Finland' },
         { name: 'Priyal Pimplapure', country: 'Republic of Belarus' },
         { name: 'Sarthak Kale', country: 'State of Israel' },
@@ -26,10 +25,6 @@ const List2 = () => {
         { name: 'Karansingh Bist', country: 'Republic of Poland' },
         { name: 'Krishil Parikh', country: 'Canada' },
         { name: 'Daksh Jain', country: 'Japan' },
-        { name: '', country: 'Ethiopia' },
-        { name: '', country: 'Mexico' },
-        { name: '', country: 'South Africa' },
-        { name: '', country: 'Iran' },
       ];
     
       return (

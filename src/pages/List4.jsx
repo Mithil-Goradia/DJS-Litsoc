@@ -16,14 +16,12 @@ const List4 = () => {
         { name: 'Koyna Karmakar', country: 'Arab Republic of Egypt' },
         { name: 'Kamakshi Bahuguna', country: 'Sate of Libya' },
         { name: 'Sakshi Mehta', country: 'Republic of Yemen' },
-        { name: '', country: 'State of Palestine' },
         { name: 'Sahil Singh', country: 'New Zealand' },
         { name: 'Chhavi Talele', country: 'Republic of Finland' },
         { name: 'Paridhi Raut', country: 'Republic of  India' },
         { name: 'Hetvi Desai', country: 'Republic of Rawanda' },
         { name: 'Bhoomika Pal', country: 'Republic of Namibia' },
-        { name: 'Kabir Kapoor', country: ' People`s Democratic Republic of Algeria' },
-        { name: '', country: 'Republic of South Africa' },
+        { name: 'Kabir Kapoor', country: 'Democratic Republic of Algeria' },
       ];
     
       return (
@@ -39,7 +37,7 @@ const List4 = () => {
                     className='flex justify-between p-2 border-solid border-white border-2 rounded-lg w-full'
                   >
                     <p className='font-bold text-lg'>{participant.name}</p>
-                    <p>{participant.country}</p>
+                    <p className='mx-4'>{participant.country}</p>
                   </div>
                 </div>
               </div>
