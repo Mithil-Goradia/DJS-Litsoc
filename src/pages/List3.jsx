@@ -21,7 +21,6 @@ const List3 = () => {
     { name: 'Aaryaveer Diinesh Mishra', country: 'Gaurav Gogoi' },
     { name: 'Tanvi Shinde', country: 'Varsha Gaikwad' },
     { name: 'Mahika Marathe', country: 'Dimple Yadav' },
-    { name: 'Seyan', country: 'Akhilesh Yadav' },
     { name: 'Seher Sharik', country: 'Supriya Sule' },
   ];
 
