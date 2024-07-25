@@ -31,7 +31,7 @@ const DJMUN24 = () => {
       timelink: 'time2',
     },
     {
-      title: 'UNCSW: Where are the Women Leaders',
+      title: 'UNCSW: Lack of Women in Political Leadership',
       content: 'Discussing the lack of women representation in political leadership with a special emphasis on the MENA region.',
       logo: './icons/uncsw.png',
       listlink: 'list4',
