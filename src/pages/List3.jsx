@@ -11,9 +11,7 @@ const List3 = () => {
     { name: 'Ved Sanap', country: 'Dharmendra Pradhan' },
     { name: 'Aditya Raj', country: 'Jual Oram' },
     { name: 'Riya Kandhari', country: 'Kangana Ranaut' },
-    { name: 'Arham Shaikh', country: 'Sambit Patra' },
     { name: 'Aadi Somaiya', country: 'Tejasvi Surya' },
-    { name: 'Ziyan Khan', country: 'Piyush Goyal' },
     { name: 'Shubham Madane', country: 'Shrikant Shinde' },
     { name: 'Yash Tola', country: 'Kinjarapu Rammohan Naidu' },
     { name: 'Anurag Kaushik', country: 'Rahul Gandhi' },
@@ -21,7 +19,10 @@ const List3 = () => {
     { name: 'Aaryaveer Diinesh Mishra', country: 'Gaurav Gogoi' },
     { name: 'Tanvi Shinde', country: 'Varsha Gaikwad' },
     { name: 'Mahika Marathe', country: 'Dimple Yadav' },
+    { name: 'Ziyan Khan', country: 'Asaduddin Owaisi' },
     { name: 'Seher Sharik', country: 'Supriya Sule' },
+    { name: 'Arham Shaikh', country: 'Akhilesh Yadav' },
+
   ];
 
   return (
