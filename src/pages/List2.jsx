@@ -3,8 +3,8 @@ import React from 'react'
 const List2 = () => {
     const participants = [
         { name: 'Tanay Pandit', country: 'Republic of Armenia' },
-        { name: '', country: 'Republic of Azerbaijan' },
-        { name: 'Siddharth', country: 'Russian Federation' },
+        { name: 'Siddhanth', country: 'Republic of Azerbaijan' },
+        { name: 'Daksh Jain', country: 'Russian Federation' },
         { name: 'Vedant', country: 'Republic of Turkey' },
         { name: 'Sarthak Mane', country: 'Islamic Republic of Iran' },
         { name: 'Vedant Jadhavar', country: 'United States of America' },
@@ -24,7 +24,6 @@ const List2 = () => {
         { name: 'Agastya Prakash', country: 'Democratic People`s Republic of Korea' },
         { name: 'Karansingh Bist', country: 'Republic of Poland' },
         { name: 'Krishil Parikh', country: 'Canada' },
-        { name: 'Daksh Jain', country: 'Japan' },
       ];
     
       return (
