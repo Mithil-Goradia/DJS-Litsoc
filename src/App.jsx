@@ -24,6 +24,7 @@ import Time1 from  './pages/Time1';
 import Time2 from './pages/Time2';
 import Time3 from './pages/Time3';
 import Time4 from './pages/Time4';
+import Cntdwn from './pages/Cntdwn';
 
 function App() {
   useEffect(() => {
@@ -59,6 +60,7 @@ function App() {
               <Route path='/time2' element={<Time2/>} />
               <Route path='/time3' element={<Time3/>} />
               <Route path='/time4' element={<Time4/>} />
+              <Route path='/cntdwn' element={<Cntdwn/>} />
             </Routes>
           </ScrollToTop>
         </div>

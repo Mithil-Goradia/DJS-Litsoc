@@ -10,7 +10,7 @@ const DJMUN24 = () => {
       title: 'AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)',
       content: 'CLASSIFIED',
       logo: './icons/crisis.jpg',
-      listlink: 'list1', // Ensure this matches the route exactly
+      listlink: 'list1',
       flowlink: 'flow',
       timelink: 'time',
     },
@@ -147,6 +147,15 @@ const DJMUN24 = () => {
         </a>
       </div>
 
+      <div className='w-full flex flex-col justify-center items-center pt-2' data-aos='fade-up' data-aos-delay='500'>
+        <button
+          className='pointer text-center text-[15px] w-[80px] lg:mb-10 mb-1 flex items-center justify-start gap-1 px-2 py-2 text-white hover:text-[#242424] hover:scale-110 transition duration-400 rounded-full border-[2px] border-solid border-white font-medium leading-normal'
+          onClick={() => navigate('/cntdwn')}
+        > 
+          <img src='/clock.png' alt='clock'/>
+        </button>
+      </div>
+
       <div className='w-full flex justify-center'>
         <div className='w-full p-4 pt-20'>
           <h1 className='text-5xl font-bold text-center text-white mb-12' data-aos='fade-in' data-aos-delay='300'>
@@ -161,7 +170,7 @@ const DJMUN24 = () => {
                 logo={card.logo}
                 listlink={card.listlink}
                 flowlink={card.flowlink}
-                timelink={card.timelink} // Ensure this is passed correctly
+                timelink={card.timelink}
               />
             ))}
           </div>
