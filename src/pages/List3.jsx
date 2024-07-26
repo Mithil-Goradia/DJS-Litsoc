@@ -3,7 +3,7 @@ import React from 'react'
 const List3 = () => {
   const participants = [
     { name: 'Vinit Harish Gaikwad', country: 'Narendra Modi' },
-    { name: 'Aakash Viswanath', country: 'Amit Shah,' },
+    { name: 'Aakash Viswanath', country: 'Amit Shah' },
     { name: 'Vraj', country: 'Rajnath Singh' },
     { name: 'Kushal Jain', country: 'Kiren Rijju' },
     { name: 'Vraj Gaglani', country: 'Shivraj Singh Chauhan' },
@@ -23,6 +23,7 @@ const List3 = () => {
     { name: 'Seher Sharik', country: 'Supriya Sule' },
     { name: 'Arham Shaikh', country: 'Akhilesh Yadav' },
     { name: 'Jainam Dedhia', country: 'Abhishek Banerjee' },
+    { name: 'Vihaan Gargava', country: 'Dayanidhi Maran' },
   ];
 
   return (
