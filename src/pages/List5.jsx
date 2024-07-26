@@ -8,7 +8,7 @@ const List5 = () => {
     { name: 'Gautam Karnani', country: 'Photography' },
     { name: 'Alia Shaikh', country: 'Journalism' },
     { name: 'Kevin Shah', country: 'Journalism' },
-    { name: 'Seyan', country: 'Journalism' },
+    { name: 'Seyan', country: 'Photography' },
   ];
 
   return (
