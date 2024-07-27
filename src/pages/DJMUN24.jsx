@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../components/Navbar.css'; // Ensure this path is correct
@@ -121,31 +122,7 @@ const DJMUN24 = () => {
         </p>
       </div>
 
-      <div className='w-full flex flex-col justify-center items-center' data-aos='fade-up' data-aos-delay='500'>
-        <a
-          href='https://forms.gle/oixGAK8QfDbL69LWA'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='pointer text-center text-[24px] w-[225px] lg:mb-10 mb-6 flex items-center justify-start gap-1 px-4 py-2 text-white hover:text-[#242424] hover:bg-white hover:scale-110 transition duration-400 rounded-full border-[2px] border-solid border-white font-medium leading-normal'
-        >
-          Register here!
-          <svg
-            className='rtl:rotate-180 w-3.5 h-3.5 ms-2'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 14 10'
-          >
-            <path
-              stroke='currentColor'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth='2'
-              d='M1 5h12m0 0L9 1m4 4L9 9'
-            />
-          </svg>
-        </a>
-      </div>
+      
 
       <div className='w-full flex flex-col justify-center items-center pt-2' data-aos='fade-up' data-aos-delay='500'>
         <button
