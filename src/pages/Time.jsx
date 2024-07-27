@@ -75,9 +75,7 @@ const Time = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className='text-3xl lg:text-5xl font-bold text-white mt-10 mb-10 text-center'>
-      AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)
-      </h1>
+      
       <h1 className='text-3xl lg:text-5xl font-bold text-white mt-10 mb-10 text-center'>
       Opening Ceremony begins in
       </h1>
