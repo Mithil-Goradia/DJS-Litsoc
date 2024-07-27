@@ -63,7 +63,7 @@ const Time = () => {
   }, []);
 
   const startCountDown = useCallback(() => {
-    const countDownDate = new Date("July 27, 2024 9:35:00").getTime();
+    const countDownDate = new Date("July 27, 2024 9:45:00").getTime();
     setInterval(() => {
       getTimeDifference(countDownDate);
     }, 1000);
