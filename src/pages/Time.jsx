@@ -63,7 +63,7 @@ const Time = () => {
   }, []);
 
   const startCountDown = useCallback(() => {
-    const countDownDate = new Date("July 27, 2024 10:00:00").getTime();
+    const countDownDate = new Date("July 27, 2024 9:35:00").getTime();
     setInterval(() => {
       getTimeDifference(countDownDate);
     }, 1000);
@@ -79,7 +79,7 @@ const Time = () => {
       AFRICAN UNION PEACE AND SECURITY COUNCIL (FLAGSHIP COMMITTEE)
       </h1>
       <h1 className='text-3xl lg:text-5xl font-bold text-white mt-10 mb-10 text-center'>
-      Opening Ceremony countdown begins
+      Opening Ceremony begins in
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
         <div className="relative">
