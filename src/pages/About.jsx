@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 
 function About() {
   return (
-    <div className="h-auto pb-12 text-red-950">
+    <div className="h-auto pb-12 text-red-950 mt-20">
       {/* ABOUT US Heading */}
       <div
         className="w-full text-center text-5xl lg:text-6xl font-bold font-Quicksand"

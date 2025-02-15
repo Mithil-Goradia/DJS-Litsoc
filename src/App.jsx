@@ -37,7 +37,7 @@ function App() {
 
   return (
     
-      <div className='lg:bg-[url(./assets/bg2.png)] bg-[url(./assets/bg3.png)] bg-fixed bg-center bg-repeat bg-contain w-full min-h-screen overflow-clip'>
+      <div className='lg:bg-[url(./assets/bg2.png)] bg-[url(./assets/bg4.png)] bg-fixed bg-center bg-repeat bg-contain w-full min-h-screen overflow-clip'>
         <Navbar />
         <div className='pt-24'>
           <ScrollToTop>
