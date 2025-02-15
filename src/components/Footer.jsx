@@ -14,16 +14,17 @@ export default function Footer() {
           
           <div className="flex flex-wrap justify-center items-center gap-4  ">
             <div className="w-full flex justify-center border-white">
-              <div className=" sm:flex h-full justify-center items-center hover:cursor-pointer">
-                <Link to="/">
-                  <img className="scale-150 w-52" src={logo} alt="MUNSOC Logo" />
+              <div className=" sm:flex h-full justify-center items-center hover:cursor-pointer ">
+                <Link to="/" className="flex justify-center" >
+                  <img className="scale-150 w-20 mr-3 " src={logo} alt="LITSOC Logo" />
                 </Link>
+                <div className="font-bold font-sans text-[2.8rem] mt text-nowrap">DJ LITSOC</div>
               </div>
             </div>
 
             <div className="md:visible w-full col-span-1 md:col-span-2 flex justify-center items-center py-4 gap-4 sm:gap-8">
             <a
-              href="https://www.linkedin.com/company/djs-munsoc/"
+              href="https://www.linkedin.com/company/dj-lit-literary-society-of-d-j-sanghvi-college-of-engineering/"
               target="_blank"
               className=" rounded-full p-4 border-[2px]"
               style={{ borderColor: "#fff" }}
@@ -38,7 +39,7 @@ export default function Footer() {
               </div>
             </a>
             <a
-              href="mailto:djsmunsoc@gmail.com"
+              href="mailto:djslitsoc@gmail.com"
               target="_blank"
               className=" rounded-full p-4 border-[2px]"
               style={{ borderColor: "#fff" }}
@@ -53,7 +54,7 @@ export default function Footer() {
               </div>
             </a>
             <a
-              href="https://www.instagram.com/djs.munsoc/"
+              href="https://www.instagram.com/djs.litsoc/"
               target="_blank"
               className=" rounded-full p-4 border-[2px]"
               style={{ borderColor: "#fff" }}
