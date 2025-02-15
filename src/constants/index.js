@@ -132,10 +132,10 @@ export const events = [
   export const coreMembers = [
     [
       {
-        name: "Aman Mehra",
-        description: "Director General",
+        name: "Riday Gada",
+        description: "Chairperson",
         image:
-          "./core/aman.jpg",
+          "",
         links: {
           linkedin:
             "https://www.linkedin.com/in/aman-mehra-91aabb226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -143,9 +143,9 @@ export const events = [
         },
       },
       {
-        name: "Fiona Haria",
-        description: "Secretary General",
-        image:"./core/fiona_haria.jpg",
+        name: "Tarun Vardhaman",
+        description: "Vice Chairperson",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/fionaharia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -154,9 +154,9 @@ export const events = [
         },
       },
       {
-        name: "Aalap Dave",
-        description: "Deputy Secretary General",
-        image:"./core/Aalap.jpg",
+        name: "Rudrakshi Thakur",
+        description: "Vice Chairperson",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/aalap-dave-85443620a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -167,9 +167,9 @@ export const events = [
     ],
     [
       {
-        name: "Lakshya Joshi",
-        description: "President",
-        image:"./core/lakshya.jpg",
+        name: "Hemil Parmar",
+        description: "Treasurer",
+        image:"",
         links: {
           linkedin: "https://www.linkedin.com/in/lakshya-joshi-990007267/",
           instagram:
@@ -177,20 +177,18 @@ export const events = [
         },
       },
       {
-        name: "Mallank Gogri",
-        description: "Vice President",
-        image:"./core/Mallank.jpg",
+        name: "Tanish Bagadia",
+        description: "Secretary",
+        image:"",
         links: {
           linkedin: "https://www.linkedin.com/in/mallankgogri",
           instagram: "https://www.instagram.com/mallankg",
         },
       },
-    ],
-    [
       {
-        name: "Shreya Singh",
+        name: "Shrushti Jain",
         description: "Secretary",
-        image:"./core/Shreya_.jpg",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/shreya-singh-a6b875252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -198,10 +196,13 @@ export const events = [
             "https://www.instagram.com/shreyaa_singhh_16?igsh=MXNoeWRuNG15a3p6MA==",
         },
       },
+    ],
+    [
+      
       {
-        name: "Riya Gala",
-        description: "Creatives Head",
-        image:"./core/RiyaGala.jpg",
+        name: "Priyanshi Jain",
+        description: "Publicity Head",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/riya-gala-96858b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -210,17 +211,17 @@ export const events = [
         },
       },
       {
-        name: "Yashvi Savla",
-        description: "Creatives Head",
+        name: "Jenish Soni",
+        description: "Publicity Head",
         image: "",
         links: { linkedin: "", instagram: "" },
       },
     ],
     [
       {
-        name: "Sharan Shetty",
-        description: "Technical & Events Head",
-        image:"./core/Sharan.jpg",
+        name: "Prateeti Mody",
+        description: "Creatives Head",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/sharan-shetty-26445821b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -229,9 +230,9 @@ export const events = [
         },
       },
       {
-        name: "Aneesh Joshi",
-        description: "Events Head",
-        image:"./core/Aneesh.jpg",
+        name: "Disha Shah",
+        description: "Creatives Head",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/aneesh-j-287926289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -242,15 +243,26 @@ export const events = [
     ],
     [
       {
-        name: "Mohit Shah",
-        description: "Delegate General",
-        image:"./core/Mohit.jpg",
+        name: "Aayush Satra",
+        description: "Events Head",
+        image:"",
         links: { linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a", instagram: "https://www.instagram.com/_mohit.13_/#" },
       },
       {
-        name: "Meet Jain",
+        name: "Vainavi Pimpale",
         description: "Marketing Head",
-        image:"./core/Meet_Jain.jpg",
+        image:"",
+        links: {
+          linkedin:
+            "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          instagram:
+            "https://www.instagram.com/meet_jain14?igsh=MTA0bWY1bW40eXhieQ==",
+        },
+      },
+      {
+        name: "Sharan Shetty",
+        description: "Technical Head",
+        image:"",
         links: {
           linkedin:
             "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -259,6 +271,64 @@ export const events = [
         },
       },
     ],
+    [
+      {
+        name: "Tanuj Kajungo",
+        description: "Content Creation Head",
+        image:"",
+        links: { linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a", instagram: "https://www.instagram.com/_mohit.13_/#" },
+      },
+      {
+        name: "Vedant Taware",
+        description: "Content Creation Head",
+        image:"",
+        links: {
+          linkedin:
+            "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          instagram:
+            "https://www.instagram.com/meet_jain14?igsh=MTA0bWY1bW40eXhieQ==",
+        },
+      },
+    ],
+    [
+      {
+        name: "Tushya Vyas",
+        description: "Operations Head",
+        image:"",
+        links: { linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a", instagram: "https://www.instagram.com/_mohit.13_/#" },
+      },
+      {
+        name: "Akshat Madhani",
+        description: "Operations Head",
+        image:"",
+        links: {
+          linkedin:
+            "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          instagram:
+            "https://www.instagram.com/meet_jain14?igsh=MTA0bWY1bW40eXhieQ==",
+        },
+      },
+    ],
+    [
+      {
+        name: "Gia Pillai",
+        description: "Creative Writing Head",
+        image:"",
+        links: { linkedin: "http://www.linkedin.com/in/mohit-shah-38939821a", instagram: "https://www.instagram.com/_mohit.13_/#" },
+      },
+      {
+        name: "Titthi Harsh",
+        description: "Creative Writing Head",
+        image:"",
+        links: {
+          linkedin:
+            "https://www.linkedin.com/in/meet-jain14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          instagram:
+            "https://www.instagram.com/meet_jain14?igsh=MTA0bWY1bW40eXhieQ==",
+        },
+      },
+    ],
+    
   ];
 
   

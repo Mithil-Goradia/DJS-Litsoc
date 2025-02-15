@@ -11,9 +11,8 @@ function Team() {
         OUR TEAM
       </div>
       <div className="lg:w-1/2 pt-8 pb-12 mx-3 lg:mx-auto text-center lg:text-xl text-lg" data-aos="fade-down" data-aos-delay="300">
-        <p>Meet the architects of our MUN journey, the brilliant minds behind the scenes - our Secretariat and the Core Team. 
-          These are the individuals who turn aspirations into achievements,
-          and their commitment is the driving force that propels DJS-MUNSOC to new heights!
+        <p>Meet the driving force behind LitSoc, our core team brings creativity, dedication, and leadership to curate inspiring literary events, 
+          discussions, and initiatives. United by a love for literature, we strive to build a thriving community of storytellers and poets!
         </p>
       </div>
       <div className='w-full lg:mx-auto flex flex-col items-center gap-36 pb-40' data-aos="fade-in" data-aos-delay="800">
