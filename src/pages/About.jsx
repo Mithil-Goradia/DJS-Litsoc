@@ -1,22 +1,38 @@
-import {React, useEffect} from 'react'
-import 'aos/dist/aos.css'
+import { React, useEffect } from 'react';
+import 'aos/dist/aos.css';
 
 function About() {
   return (
-    <div className='h-auto pb-12'>
-      <div className='w-full text-center text-5xl lg:text-6xl font-bold font-Quicksand' data-aos="fade-in" data-aos-delay="300">
+    <div className="h-auto pb-12 text-red-950">
+      {/* ABOUT US Heading */}
+      <div
+        className="w-full text-center text-5xl lg:text-6xl font-bold font-Quicksand"
+        data-aos="fade-in"
+        data-aos-delay="300"
+      >
         ABOUT US
       </div>
-      <div className="lg:w-2/3 py-12 mx-4 lg:mx-auto text-center text-lg lg:text-2xl" data-aos="fade-in" data-aos-delay="800">
-        <p>DJS-MUNSOC, The Model United Nations Society of Dwarkadas J. Sanghvi College Of Engineering, Mumbai, is a dynamic platform where diplomacy meets education. Established in 2022 and entirely student-led, we take pride in nurturing a space that encourages critical thinking, global awareness, and leadership development.</p>
-        <br/>
-        <p>Our mission is to provide a platform for students to immerse themselves in the world of international relations through engaging MUN simulations, workshops, and conferences. We aim to empower students to become articulate, informed, and culturally aware leaders who can make a positive impact on the global stage.</p>
-        <br/>
-        <p>At DJS-MUNSOC, we're not just shaping leaders; we're cultivating a community dedicated to making a difference in the world.</p>
-      </div>
 
+      {/* DJS-LITSOC Section */}
+      <div
+        className="lg:w-2/3 py-12 mx-4 lg:mx-auto text-center text-lg lg:text-2xl"
+        data-aos="fade-in"
+        data-aos-delay="1000"
+      >
+        <p>
+          <strong>DJS-LITSOC</strong>, The Literature Society of Dwarkadas J. Sanghvi College of Engineering, Mumbai, is a vibrant community where creativity meets expression. Founded to celebrate the power of words, our society is a haven for literature enthusiasts, aspiring writers, poets, and storytellers.
+        </p>
+        <br />
+        <p>
+          Our mission is to foster a love for literature, language, and storytelling by providing a platform for students to explore their creative potential. Through engaging events, interactive workshops, book discussions, and writing competitions, we encourage critical thinking, artistic expression, and intellectual discourse.
+        </p>
+        <br />
+        <p>
+          At DJS-LITSOC, we believe that literature is more than just words on a page—it is a gateway to imagination, a tool for change, and a means of understanding the world. Join us as we embark on a journey of storytelling, poetry, and literary exploration, shaping voices that inspire and ideas that resonate.
+        </p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

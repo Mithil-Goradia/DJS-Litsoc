@@ -25,7 +25,7 @@ function Navbar() {
           />
         </Link>
         <button
-          className="pointer-events-auto text-white opacity-100 w-10 h-10 relative focus:outline-none mt-3"
+          className="pointer-events-auto text-red-950 opacity-100 w-10 h-10 relative focus:outline-none mt-3"
           onClick={() => {
             setisOpen(!isOpen);
           }}>
@@ -56,7 +56,7 @@ function Navbar() {
             key={index}
                 className={`transition-all ease-out duration-500  ${
                   !isOpen && "translate-x-full"
-                } w-full pointer btn flex justify-center px-5 -py-4 rounded-full text-3xl font-bold leading-normal text-white font-quicksand`}
+                } w-full pointer btn flex justify-center px-5 -py-4 rounded-full text-3xl font-bold leading-normal text-red-950 font-quicksand`}
             >
               <Link
                   to={link}
@@ -75,15 +75,9 @@ function Navbar() {
     </div>
     <nav className="w-full hidden md:flex pb-2">
       <div className="flex space-x-2 items-center justify-between lg:px-16 w-full">
-        <div className="w-1/3">
+        <div className="w-1/3 text-red-950 text-5xl flex items-center">
           <Link to="/">
-            <img
-              src={lg_logo} // Route of the image file
-            //   height={80} // Desired size with correct aspect ratio
-              width={300} // Desired size with correct aspect ratio
-              className='pt-3 pr-3'
-              alt="Your Name"
-            />
+            <p>LITSOC</p>
           </Link>
         </div>
         <div className="w-1/3 pt-4 flex space-x-7 items-start justify-center">
@@ -103,7 +97,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             href={`mailto:${email}`}>
-            <div className="pointer flex items-center justify-start px-5 py-2 text-md text-white hover:text-[#242424] rounded-full border-[2px] border-solid border-white font-bold leading-normal button-2">
+            <div className="pointer flex items-center justify-start px-5 py-2 text-md text-red-950 hover:text-[#242424] rounded-full border-[2px] border-solid border-white font-bold leading-normal button-2">
               Contact Us
             </div>
           </a>

@@ -16,17 +16,19 @@ function Home() {
         <div className='flex justify-center items-center w-full bg-cover lg:mt-0 sm:mt-0'>
           <img src="/group.jpg" className='relative object-contain max-w-full h-auto'></img>
         </div>
-        <div className=" text-white pt-10 lg:pt-[180px] lg:pb-4 pb-20 w-full">
-          <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up" data-aos-delay="300" >DJS</p>
-          <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up" data-aos-delay="300">MUNSOC</p>
-          <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-gray-300' data-aos="fade-up" data-aos-delay="700">A Platform where <span className="font-bold italic">Diplomacy</span> meets <span className="font-bold italic">Education</span></p>
+        <div className=" text-red-950 pt-10 lg:pt-[180px] lg:pb-4 pb-20 w-full">
+          <div className='flex flex-col'>
+            <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up" data-aos-delay="300" >DJS</p>
+            <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up" data-aos-delay="300">LITSOC</p>
+          </div>
+          <p className='pt-8 lg:pb-12 pb-10 lg:pt-28 text-center text-xl lg:text-2xl text-red-800' data-aos="fade-up" data-aos-delay="700">Only <span className="font-bold italic">Literature</span> society <span className="font-bold italic">spreading Art</span></p>
           <div className="w-full flex justify-center">
             <div
               ref={targetRef}
               onClick={() => {navigate('/DJMUN24')}}
-              className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
+              className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-red-900 hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-red-900 font-semibold leading-normal button-2"
             >
-              <p className="text-bold">Registrations are now live for DJMUN'24</p>
+              <p className="text-bold">Registrations are now live for PreFace'25</p>
               <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg>
