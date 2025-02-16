@@ -7,6 +7,7 @@ import { RxDoubleArrowDown } from 'react-icons/rx'
 import { useNavigate } from 'react-router-dom'
 import About from './About'
 import bookbg from '../assets/bookbg.png'
+import groupbg from '../assets/group-bg.jpeg'
 
 function Home() {
   const navigate = useNavigate()
@@ -14,7 +15,8 @@ function Home() {
   return (
     <>
       <div className='w-full min-h-screen text-3xl'>
-        <div className=" text-white pt-20 lg:pt-[130px] lg:pb-4 pb-20 w-full" style={{ backgroundImage: `url(${bookbg})`, backgroundSize: "cover", backgroundPosition: "center" }}>
+        <img src={groupbg} className='w-full h-full object-cover' />
+        <div className=" text-white pt-10 lg:pt-[130px] w-full" style={{ backgroundImage: `url()`, backgroundSize: "cover", backgroundPosition: "center" }}>
           <div className='flex flex-col'>
             <p className='text-center lg:text-left text-[44px] lg:text-[80px] font-extrabold lg:pl-[368px] pb-4 lg:pb-16' data-aos="zoom-out-up" data-aos-delay="300" >DJS</p>
             <p className='text-[75px] lg:text-[180px] font-bold text-center' data-aos="zoom-out-up" data-aos-delay="300">LITSOC</p>
@@ -23,7 +25,7 @@ function Home() {
           <div className="w-full flex justify-center">
             <div
               ref={targetRef}
-              className="hidden mb-28 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
+              className="hidden mb-14 text-md text-xl lg:inline-flex items-center gap-2 justify-start px-6 py-4 text-white hover:text-[#242424] hover:scale-110 rounded-full border-[2px] border-solid border-white font-semibold leading-normal button-2"
             >
               <a href= " https://chat.whatsapp.com/G4CRgTQhm1yE9gz2Br4Tp1 " className="text-bold">Registrations are now live for PreFace'25</a>
               <svg class="rtl:rotate-180 w-4.5 h-4 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

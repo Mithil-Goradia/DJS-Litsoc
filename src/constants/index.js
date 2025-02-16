@@ -1,4 +1,6 @@
-export const email = 'djsmunsoc@gmail.com'
+export const email = 'djslitsoc@gmail.com'
+import preface_cover from '../assets/preface_cover.png'
+import trickotreat_cover from '../assets/trickotreat_cover.png'
 
 export const navLinks = [
     { link: "/", name: "Home"},
@@ -8,99 +10,55 @@ export const navLinks = [
     // { link: "/aboutus", name: "About Us"},
   ];
 
-export const events = [
-  {
-    year: "2023 - 2024",
-    events:[
-            {
-              name:"DJS Youth Summit 1.0", 
-              date:"22-23rd March, 2024",
-              thumbnail:"/events/youthsum/thumbnail1.png", 
-              images:["/events/youthsum/img1.jpg","/events/youthsum/img2.jpg","/events/youthsum/img3.jpg","/events/youthsum/img4.jpg","/events/youthsum/img5.jpg"],
-              committees:[
-                {
-                  name:"UNHSC",
-                  description:["Inheriting the Bomb: Post USSR Collapse and its Nuclear Implications."]
-                },
-                {
-                  name:"UNHRC",
-                  description:["Addressing Human Rights and Legal Implications at Guantanamo Bay."]
-                },
-                {
-                  name:"Lok Sabha",
-                  description:["To address the preservation and restoration of monuments of historical importance, including Ayodhya, Mathura, Kashi, and others impacted by historical events."]
-                },
-                {
-                  name:"International Press (IP)",
-                  description:[]
-                },
-              ]
-            },
-          ]
-  },
-  {
-    year:"2022 - 2023",
-    events:[
-      {
-        name:"DJMUN 2023", 
-        date:"19-20th August, 2023", 
-        thumbnail:"/events/djmun23/thumbnail.png",
-        images:["/events/djmun23/img1.jpg","/events/djmun23/img2.jpg","/events/djmun23/img3.jpg","/events/djmun23/img4.jpg"],
-        committees:[
-          {
-            name:"AIPPM",
-            description:["Collaborate with National and International Institutions, focused on GIFT City.",
-              "Tackle the Surge of Communal Politics and Address Inappropriate Behavior of Party Workers."]
-          },
-          {
-            name:"WHO",
-            description:["Exploring Boundaries: Legalizing & Regulating Recreational Drugs.","A Compassionate Debate: Assisted Suicide & Euthanasia."]
-          },
-          {
-            name:"Indo-Pak",
-            description:["De-escalation of state-sponsored terrorism , with a special focus on the impactful URI and PULWAMA."]
-          },
-          {
-            name:"UNSC",
-            description:["Cybersecurity and State-Sponsored Hacking, with a special focus on the profound ethical implications of Artificial Intelligence (AI) algorithms on our world."]
-          },
-          {
-            name:"US Senate",
-            description:["The US Senate takes on Twitter in a Clash of Powers."]
-          },
-        ]
-      },
-      {
-        name:"MUNch Madness", 
-        date:"15-16th March, 2023", 
-        thumbnail:"/events/munch/thumbnail.png",
-        images:["/events/munch/image1.jpg","/events/munch/image2.jpg","/events/munch/image3.jpg"],
-        committees:[
-          {
-            name:"UNSC",
-            description:["China’s rising global influence with emphasis on cyber threats and espionage."]
-          },
-          {
-            name:"DISEC",
-            description:["Disarmament of nuclear weapons with emphasis on the Russia-Ukraine Crisis."]
-          },
-          {
-            name:"UNHRC",
-            description:[" LGBTQ+ Rights in the Middle East and the African regions."]
-          },
-          {
-            name:"Indo-Pak Summit",
-            description:["Ethnic cleansing of the minorities."]
-          },
-          {
-            name:"International Press (IP)",
-            description:[]
-          },
-        ]
-      },
-    ]
-  }
-]
+  export const events = [
+    {
+      year: "2024 - 2025",
+      events: [
+        {
+          name: "THE PREFACE",
+          date: "17th Feb 2025",
+          venue: "First Floor Conference Room",
+          time: "TBA",
+          thumbnail: preface_cover, // You'll need to add appropriate image path
+          description: "Join us for the launch of our exciting book club!",
+          fullDescription: "Our much-awaited The Preface launch is happening with exciting activities and interactions planned for all book lovers.",
+          highlights: [
+            "Fun and interactive book club launch",
+            "Exciting literary quizzes & games",
+            "A space to share recommendations",
+            "Discuss favorites and find your next great read"
+          ],
+          images: [
+            "/images/preface-1.jpg",
+            "/images/preface-2.jpg",
+            "/images/preface-3.jpg"
+          ],
+          isWalkIn: true
+        },
+        {
+          name: "Trick O Treat 2.0",
+          date: "24th October 2024",
+          venue: "Area outside the canteen",
+          time: "10 AM onwards",
+          thumbnail: trickotreat_cover, // You'll need to add appropriate image path
+          description: "Join us for an exciting Halloween-themed event featuring multiple rounds of creative challenges!",
+          fullDescription: `Missed the registration? No worries! You can still join us for the Pumpkin Carving Contest and more. Here's your chance to compete in a thrilling lineup of events, showcasing your skill, creativity, and strategy.`,
+          highlights: [
+            "Mini Games Madness: Dive into action-packed mini games and earn points. The top 20 teams qualify for the next round!",
+            "Storytelling Showdown: Choose 5 surprise images and weave a creative story around them. Impress the judges with your originality to make it to the top 8 teams.",
+            "Bidding Bonanza: Use your earned points to bid for tools and materials for the final challenge!",
+            "The Final Battle - Pumpkin Carving Showdown: Put your creativity to the test and carve the ultimate pumpkin masterpiece."
+          ],
+          images: [
+            "/images/trick-o-treat-1.jpg",
+            "/images/trick-o-treat-2.jpg",
+            "/images/trick-o-treat-3.jpg"
+          ],
+          isWalkIn: true
+        }
+      ]
+    }
+  ];
 
 
   // export const coreMembers = [
