@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <div
-      className="flex-col w-full py-4 px-2 sm:px-5 gap-8 text-white backdrop-blur-xl bg-transparent bottom-0"
+      className="flex-col w-full py-4 px-2 sm:px-5 gap-8 text-red-900 backdrop-blur-xl bg-transparent bottom-0"
       // style={{ background: "linear-gradient(180deg, #0e2038, black)" }}
     >
       <div className="md:-ml-20 w-full lg:grid grid-cols-3 md:px-12 md:gap-12 lg:gap-24 lg:px-20  overflow-x-hidden">
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
           
           <div className=" flex w-full flex-col sm:gap-3 pb-4 md:pl-16 lg:pl-24">
-            <h1 className=" text-3xl font-semibold text-white underline underline-offset-4 py-2 lg:py-0 ">INFO</h1>
+            <h1 className=" text-3xl font-semibold text-red-900 underline underline-offset-4 py-2 lg:py-0 ">INFO</h1>
             <div className="text-lg sm:text-lg">
             <p className="hover:translate-x-1 transition-all transition-ease">
                 <Link
@@ -83,9 +83,9 @@ export default function Footer() {
               </p>
               <p className="hover:translate-x-1 transition-all transition-ease">
                 <Link
-                  to="/DJMUN24"
+                  to="/preface"
                 >
-                  DJS MUN 2024
+                  PREFACE'25
                 </Link>
               </p>
               <p className="hover:translate-x-1 transition-all transition-ease">
@@ -106,7 +106,7 @@ export default function Footer() {
           </div>
           
           <div className="">
-              <h1 className=" text-2xl font-semibold text-white underline underline-offset-4 py-4 lg:py-0 mb-2">ADDRESS</h1>
+              <h1 className=" text-2xl font-semibold text-red-900 underline underline-offset-4 py-4 lg:py-0 mb-2">ADDRESS</h1>
               <p className="md:pt-3 mb-6">
                 No. U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Marg, Opp.Cooper Hospital, Vile Parle (West), Mumbai-400 056. India
               </p>
